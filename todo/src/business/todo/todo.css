@@ -1,0 +1,115 @@
+.content-outer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.content-wrap {
+  float: left;
+  width: 800px;
+}
+.todo-title {
+  font-size: 16px;
+}
+.todo-add-wrap {
+  background-color: rgba(247, 247, 247, 1);
+  padding: 20px;
+}
+.todo-add {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  color: #444;
+}
+.todo-add-btns {
+  text-align: right;
+  margin-top: 10px;
+}
+.todo-add-btns > button {
+  margin-left: 10px;
+}
+.todo-item {
+  display: block;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 10px 0;
+  border-bottom: 1px dashed #bbb;
+}
+.todo-item-idx {
+  color: #999;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  line-height: 30px;
+}
+.todo-item-title {
+  width: 90%;
+  float: left;
+  line-height: 30px;
+}
+.todo-item-title-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.todo-item-operations {
+  font-size: 12px;
+  color: #bbb;
+}
+.todo-item:hover > .todo-item-operations {
+  color: #333;
+}
+.todo-item-finished:hover > .todo-item-operations,.todo-item-discard:hover > .todo-item-operations {
+  color: #bbb!important;
+}
+.todo-item-operations > .col {
+  box-sizing: border-box;
+  padding: 0 40px;
+  width: 25%;
+}
+.todo-item-operations > .btn-edit {
+  cursor: pointer;
+}
+.todo-item-operations >  .btn-edit:hover {
+  color: #3896f8;
+}
+
+.todo-item-finished {
+  color: #999;
+}
+.todo-finished {
+  color: #5cb85c!important;
+}
+.todo-item-discard > .todo-item-title {
+  text-decoration: line-through;
+  color: #666;
+}
+.todo-discard {
+  color: #f56c6c!important;
+}
+.show-detail {
+  cursor: pointer!important;
+}
+.show-detail:hover {
+  color: #3896f8!important;
+}
+.btn-edit {
+  cursor: pointer;
+}
+.btn-edit:hover {
+  color: #3896f8;
+}
+.todo-item-finished .btn-edit:hover,.todo-item-discard .btn-edit:hover {
+  color: #bbb;
+  cursor: not-allowed;
+}
+
+.todo-filter label {
+  font-size: 14px;
+  margin-right: 10px;
+}

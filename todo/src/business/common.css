@@ -1,0 +1,132 @@
+button, input {
+  outline: none;
+}
+ul li {
+  list-style: none;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+.row {
+  margin-bottom: 20px;
+  position: relative;
+}
+.col {
+  display: inline-block;
+  position: relative;
+}
+.label {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  color: #444;
+  min-width: 60px;
+  text-align: right;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+.input {
+  outline: none;
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border 0.2s;
+  font-size: 14px;
+}
+.input:focus {
+  border: 1px solid #3896f8;
+}
+
+.btn {
+  outline: none;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  letter-spacing: 2px;
+  padding: 0 10px;
+  height: 32px;
+  color: #666;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-default {
+  background-color: #3896f8;
+  color: #fff;
+  border-color: #3896f8;
+}
+.btn-default:hover {
+  background-color: #66b1ff;
+  border-color: #66b1ff;
+}
+.btn-default:focus {
+  background-color: #66b1ff;
+  border-color: #66b1ff;
+}
+.btn-default:active {
+  background-color: #3896f8!important;
+}
+.btn-minor:focus {
+  background-color: #ecf5ff;
+  color: #3896f8;
+  border-color: #c6e2ff;
+}
+.btn-minor {
+  border-color: #dcdcdc;
+  color: #666;
+  background-color: #fff;
+}
+.btn-green, .btn-green:disabled:hover {
+  border-color: #5cb85c;
+  color: #fff;
+  background-color: #5cb85c;
+}
+.btn-green:hover, .btn-green:focus {
+  background-color: #85ce61;
+  color: #fff;
+  border-color: #85ce61;
+}
+.btn-green:active {
+  border-color: #5daf34;
+  background-color: #5daf34;
+}
+
+
+.a {
+  color: #3896f8!important;
+  cursor: pointer;
+}
+.a-hover:hover {
+  text-decoration: underline;
+}
+
+.error-tip {
+  position: absolute;
+  top: 50%;
+  transform: translate(10px, -50%);
+  color: #f56c6c;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}

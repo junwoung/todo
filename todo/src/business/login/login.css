@@ -1,0 +1,32 @@
+.login-outer-wrap {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+.btn-login {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+}
+.remember-login {
+  user-select: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #999;
+}
+.go-register {
+  margin-left: 60px;
+}
+.label-register {
+  width: 100px;
+}
+.btn-register-submit {
+  width: 80px;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+.btn-register-reset {
+  width: 80px;
+  margin-left: 30px;
+}

@@ -1,0 +1,29 @@
+.userdata-dmt {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+.userdata-dmt > div {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+.userdata-dmt > div:last-child {
+  border-right: none;
+}
+.userdata-dmt > div > label {
+  color: #999;
+  display: inline-block;
+  width: 50%;
+}
+.userdata-dmt > div > span {
+  font-size: 18px;
+  font-weight: 200;
+}
+.weeks-polyline {
+  height: 300px;
+}
